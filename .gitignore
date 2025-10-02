@@ -1,0 +1,97 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+__pypackages__/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+
+# --- IDE & Editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Testing & coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.tox/
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# --- Jupyter ---
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.pot
+*.mo
+
+# --- Environment variables ---
+.env
+.env.local
+.env.*.local
+.envrc
+.python-version
+
+# --- Django / Flask / FastAPI ---
+*.sqlite3
+db.sqlite3
+instance/
+*.db
+*.db-journal
+# (Миграции НЕ игнорируем)
+
+# --- OS trash ---
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Docker volumes & DB data ---
+volumes/
+**/clickhouse_data/
+**/postgres_data/
+**/data/
+**/logs/
+
+# --- WhatsApp Web JS auth/cache ---
+.wwebjs_auth/
+.wwebjs_cache/
+
+# --- Node / JS ---
+node_modules/
+**/.cache/
+**/.eslintcache
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Puppeteer / Chromium ---
+**/.local-chromium/
+**/chrome-win/
+**/puppeteer*/.local-chromium/
+**/puppeteer*/chrome-*

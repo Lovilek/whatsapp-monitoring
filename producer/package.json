@@ -1,0 +1,19 @@
+{
+  "name": "wa-kafka-producer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/whatsapp_producer.js",
+  "scripts": {
+    "start": "node src/whatsapp_producer.js",
+    "create-topic": "node scripts/create-topic.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "kafkajs": "^2.2.4",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.1.0",
+    "puppeteer": "^22.15.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
