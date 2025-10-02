@@ -1,8 +1,8 @@
-# WhatsApp → Kafka → ClickHouse → Telegram
+#WhatsApp → Kafka → ClickHouse → Telegram
  
 Конвейер обработки сообщений: захват сообщений из WhatsApp, обработка через Kafka, сохранение в ClickHouse и пересылка в Telegram.
 
-## Предварительные требования
+##Предварительные требования
 
 - Node.js LTS (v18+)
 - Python 3.10+
@@ -10,7 +10,7 @@
 - Telegram бот (получить токен через @BotFather)
 - Chat ID получателя уведомлений в Telegram
 
-## Конфигурация
+##Конфигурация
 
 Создайте файл `.env` со следующим содержимым:
 
@@ -25,7 +25,7 @@ WA_CLIENT_ID=main
 LOG_LEVEL=info
 ```
 
-## Установка
+##Установка
 
 ### 1. Настройка WhatsApp Producer
 ```bash
