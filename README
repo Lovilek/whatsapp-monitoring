@@ -1,5 +1,5 @@
 # WhatsApp → Kafka → ClickHouse → Telegram
-
+ 
 Конвейер обработки сообщений: захват сообщений из WhatsApp, обработка через Kafka, сохранение в ClickHouse и пересылка в Telegram.
 
 ## Предварительные требования
